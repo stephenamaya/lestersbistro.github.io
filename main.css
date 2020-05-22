@@ -249,7 +249,7 @@ body::-webkit-scrollbar-thumb:hover {
   top: 0;
   left: 0;
   background: rgb(207, 92, 92);
-  background: rgba(255, 223, 223, 0.842);
+  background: rgba(255, 223, 223, 0.945);
   z-index: 1;
 }
 
