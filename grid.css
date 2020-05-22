@@ -1,0 +1,107 @@
+.container-s,
+.container-m,
+.container-l {
+  margin: auto;
+  max-width: 1500px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.container-s {
+  width: 60%;
+}
+.container-m {
+  width: 70%;
+}
+
+.row {
+  width: 100%;
+  overflow: auto;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 1rem 2%;
+}
+
+.col-1 {
+  width: 4.33%;
+}
+
+.col-2 {
+  width: 12.66%;
+}
+
+.col-3 {
+  width: 21%;
+}
+
+.col-4 {
+  width: 29.33%;
+}
+
+.col-5 {
+  width: 37.66%;
+}
+
+.col-6 {
+  width: 46%;
+}
+
+.col-7 {
+  width: 54.33%;
+}
+
+.col-8 {
+  width: 62.66%;
+}
+
+.col-9 {
+  width: 71%;
+}
+
+.col-10 {
+  width: 79.33%;
+}
+
+.col-11 {
+  width: 87.66%;
+}
+
+.col-12 {
+  width: 96%;
+}
+
+.push {
+  height: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container-s {
+    width: 95%;
+  }
+
+  .container-m {
+    width: 95%;
+  }
+
+  .sml-6 {
+    width: 46%;
+  }
+
+  .sml-12 {
+    width: 96%;
+  }
+
+  .row [class^="col"] {
+    height: auto;
+    column-fill: auto;
+  }
+
+  .container-s,
+  .container-m,
+  .container-l {
+    margin: auto;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+}
